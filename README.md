@@ -1,5 +1,5 @@
-# ÎŞÈË»úÓ²¼şÔÚ»··ÂÕæ
-## ±àÒë
+# æ— äººæœºç¡¬ä»¶åœ¨ç¯ä»¿çœŸ
+## ç¼–è¯‘
 ```Bash
 $ sudo apt-get install ros-kinetic-joint-state-publisher-gui
 $ cd ~/catkin_ws/src
@@ -7,23 +7,23 @@ $ git clone https://gitee.com/harbin-institute-of-technology-csc/drone_simulator
 $ cd ~/catkin_ws
 $ catkin_make
 ```
-## ÔËĞĞ½á¹û
-²é¿´Ä£ĞÍ
+## è¿è¡Œç»“æœ
+æŸ¥çœ‹æ¨¡å‹
 ```Bash
 $ roslaunch drone_description display.launch
 ```
-![image](https://gitee.com/harbin-institute-of-technology-csc/drone_simulator/raw/master/dji_m100_gimbal_camera_rviz.png)
-¾«×¼´©Ô½³¡¾°
+![image](dji_m100_gimbal_camera_rviz.png)
+ç²¾å‡†ç©¿è¶Šåœºæ™¯
 ```Bash
 $ roslaunch drone_gazebo jing_zhun_chuan_yue.launch
 ```
-![image](https://gitee.com/harbin-institute-of-technology-csc/drone_simulator/raw/master/jing_zhun_chuan_yue.png)
-Ìì¹¬ÖşËş³¡¾°
+![image](jing_zhun_chuan_yue.png)
+å¤©å®«ç­‘å¡”åœºæ™¯
 ```Bash
 $ roslaunch drone_gazebo tian_gong_zhu_ta.launch
 ```
-´ó½®OSDK·ÉĞĞÊı¾İ»Ø·Å
+å¤§ç–†OSDKé£è¡Œæ•°æ®å›æ”¾
 ```Bash
 $ roslaunch drone_simulator tian_gong_zhu_ta_replay.launch
 ```
-![image](https://gitee.com/harbin-institute-of-technology-csc/drone_simulator/raw/master/tian_gong_zhu_ta_replay.png)
+![image](tian_gong_zhu_ta_replay.png)
